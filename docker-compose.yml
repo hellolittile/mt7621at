@@ -1,0 +1,7 @@
+version: "3.3"  # optional since v1.27.0
+services:
+  openwrt:
+    build: .
+    volumes:
+      - ./opt:/opt
+    container_name: openwrt
